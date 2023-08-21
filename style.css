@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    overflow-x: hidden;
+}
+
+/* About section starts */
+    .bg-img{
+        height: 785px;
+        max-width: 1560px;
+        background-image: url(./images/bg-img.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border: -10px;
+    }
+
+    .header-text{
+        color: white;
+        padding: 0 400px;
+    }
+
+    .hello{
+        font-size: 30px;
+        margin-bottom: -20px;
+    }
+
+    .header-text>h1{
+        font-size: 60px;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+    .details>p{
+        font-size: 25px;
+        font-weight: normal;
+    }
+/* About section ends */
+
+
+/* Education section starts */
+    #education{
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .ed-text>h1{
+        font-size: 60px;
+        color: #4E51A2;
+    }
+
+    .edu-img>img{
+        width: 400px;
+    }
+    .year-text{
+        text-align: center;
+    }
+
+    .year-box{
+        height: 130px;
+        width: 240px;
+        background-color: #4E51A2;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 10px;
+    }
+    
+    .year-box>h3{
+        font-size: 25px;
+        color: #dcd9ff;
+        margin-bottom: -15px;
+    }
+
+    .year-text>hr{
+        width: 50px;
+        height: 2px;
+        background-color: black;
+    }
+
+    .year-text>p{
+        font-size: 18px;
+    }
+/* Education section ends */
+
+
+/* Hobbies section starts */
+    #hobbies{
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .hobbies-text>h2{
+        font-size: 60px;
+        color: #4E51A2;
+        margin-bottom: 50px;
+
+    }
+
+    .hobby-main{
+        display: flex;
+    }
+
+    .hobbies-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hobbies-card-1{
+        background-image: url(./images/cricket.jpg);
+        background-repeat: no-repeat;
+        height: 475px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0px;
+    }
+
+    .hobbies-card-1:hover{
+        transform: scale(1.2);
+        box-shadow: 10px 10px;
+    }
+
+    .alone>h3{
+        font-size: 25px;
+        color: #4E51A2;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .hobbies-card-2{
+        background-image: url(./images/music.jpg);
+        background-repeat:no-repeat ;
+        height: 475px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0px;
+    }
+
+    .hobbies-card-2:hover{
+        transform: scale(1.2);
+        box-shadow: 10px 10px;
+    }
+
+    .hobbies-card-3{
+        background-image: url(./images/puzzle.png);
+        background-repeat:no-repeat ;
+        height: 475px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0px;
+    }
+
+    .hobbies-card-3:hover{
+        transform: scale(1.2);
+        box-shadow: 10px 10px;
+    }
+/* Hobbies section ends */
+
+
+/* Footer starts */
+    #contact{
+        height: 250px;
+        width: 100%;
+        background-color: #4E51A2;
+        margin-bottom: -45px;
+        padding-top: 20px;
+    }
+
+    .contact-left{
+        margin-left: 165px;
+    }
+
+    .contact-left>h2{
+        font-size: 60px;
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+    }
+
+    .contact-left>a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .social-media>img{
+        width: 20px;
+        margin: 5px;
+        margin-top: 10px;
+    }
+
+/* Footer ends */
