@@ -232,4 +232,10 @@ body{
         margin-top: 10px;
     }
 
+    .social-media>a>img{
+        width: 20px;
+        margin: 5px;
+        margin-top: 10px;
+    }
+
 /* Footer ends */
