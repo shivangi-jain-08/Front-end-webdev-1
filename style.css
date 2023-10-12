@@ -302,8 +302,8 @@ a>img:hover{
         color: white;
     }
 
-    .social-media>img{
-        width: 20px;
+    .logo{
+        width: 40px;
         margin: 5px;
         margin-top: 10px;
     }
