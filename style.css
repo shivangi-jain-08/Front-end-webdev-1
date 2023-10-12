@@ -370,6 +370,10 @@ a>img:hover{
         flex-wrap: wrap;
     }
 
+    #project-box-2{
+        margin-top: -82px;
+    }
+
     .hobby-main{
         flex-direction: column;
     }
