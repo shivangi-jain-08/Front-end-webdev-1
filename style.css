@@ -2,12 +2,14 @@
 body{
     font-family: 'Bricolage Grotesque', sans-serif;
     overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* About section starts */
     .bg-img{
-        height: 785px;
-        max-width: 1560px;
+        height: 100vh;
+        max-width: 100vw;
         background-image: url(./images/bg-img.jpg);
         display: flex;
         flex-direction: column;
@@ -15,7 +17,7 @@ body{
         justify-content: center;
         background-repeat: no-repeat;
         padding: 0px;
-        border: -10px;
+        /* border: -10px; */
     }
 
     .header-text{
@@ -43,19 +45,19 @@ body{
 
 /* Education section starts */
     #education{
-        padding-right: 200px;
-        padding-left: 200px;
-        padding-top: 0;
-        padding-bottom: 0;
+        /* padding-right: 200px;
+        padding-left: 200px; */
+        margin: 100px auto 0px auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        margin-top: 100px;
+        /* margin-top: 100px; */
     }
 
     .ed-text>h1{
         font-size: 60px;
-        color: #4E51A2;
+        color: #2E2D79;
+        
     }
 
     .edu-img>img{
@@ -66,20 +68,29 @@ body{
     }
 
     .year-box{
-        height: 130px;
-        width: 240px;
-        background-color: #4E51A2;
+        /* height: 130px;
+        width: 240px; */
+        background-color: #2E2D79;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-right: 10px;
+        justify-content: center;
+        /* padding-right: 10px; */
+        padding: 20px;
+        
     }
     
     .year-box>h3{
         font-size: 25px;
-        color: #dcd9ff;
-        margin-bottom: -15px;
+        color: rgb(255, 255, 255);
+        /* margin-bottom: -15px; */
+        margin: 0px;
+    }
+
+    .year-box>p{
+        color: #ffffff;
+        margin-bottom: 0px;
     }
 
     .year-text>hr{
@@ -106,7 +117,7 @@ body{
 
 #projects>h2{
     font-size: 60px;
-    color:#4E51A2;
+    color:#2E2D79;
     margin-bottom: -50px;
 }
 
@@ -130,7 +141,7 @@ body{
 }
 
 .project-card>h4:hover{
-    background-color: #4E51A2;
+    background-color: #2E2D79;
     color: white;
     border-radius: 5px;
     font-weight: bolder;
@@ -141,18 +152,18 @@ a>img{
 }
 
 a>img:hover{
-    scale: 1.1;
+    scale: 1.05;
     box-shadow: 10px 10px #11135a8d;
     margin-bottom: 20px;
 }
 
 .red-tag-1{
     position: relative;
-    height: 230px;
+    height: 217px;
     width: 400px;
-    background-color: #4E51A2;
-    top: 190px;
-    left: -37px;
+    background-color: #2E2D79;
+    top: 195px;
+    left: -23px;
     border-radius: 15px;
     z-index: -1;
 }
@@ -161,20 +172,17 @@ a>img:hover{
 
 /* Hobbies section starts */
     #hobbies{
-        padding-right: 200px;
-        padding-left: 200px;
-        padding-top: 0;
-        padding-bottom: 0;
+        margin: 130px auto 0 auto;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        margin-top: 130px;
+        /* margin-top: 130px; */
     }
 
     .hobbies-text>h2{
         font-size: 60px;
-        color: #4E51A2;
+        color: #2E2D79;
         margin-bottom: 50px;
 
     }
@@ -207,13 +215,14 @@ a>img:hover{
     }
 
     .hobbies-card-1:hover{
-        transform: scale(1.2);
-        box-shadow: 10px 10px;
+        transform: scale(1.05);
+        box-shadow: 10px 10px #11135ac3;
+        margin-bottom: 20px;
     }
 
     .alone>h3{
         font-size: 25px;
-        color: #4E51A2;
+        color: #2E2D79;
         margin-top: 10px;
         margin-bottom: 50px;
     }
@@ -235,8 +244,9 @@ a>img:hover{
     }
 
     .hobbies-card-2:hover{
-        transform: scale(1.2);
-        box-shadow: 10px 10px;
+        transform: scale(1.05);
+        box-shadow: 10px 10px #11135ac3;
+        margin-bottom: 20px;
     }
 
     .hobbies-card-3{
@@ -256,8 +266,9 @@ a>img:hover{
     }
 
     .hobbies-card-3:hover{
-        transform: scale(1.2);
-        box-shadow: 10px 10px;
+        transform: scale(1.05);
+        box-shadow: 10px 10px #11135ac3;
+        margin-bottom: 20px;
     }
 /* Hobbies section ends */
 
@@ -266,7 +277,7 @@ a>img:hover{
     #contact{
         height: 250px;
         width: 100%;
-        background-color: #4E51A2;
+        background-color: #2E2D79;
         margin-bottom: -45px;
         padding-top: 20px;
     }
@@ -299,3 +310,75 @@ a>img:hover{
 
 
 /* Footer ends */
+
+
+@media screen and (max-width: 480px) {
+    
+    .bg-img{
+        width: 100vw;
+        height: auto;
+        background-size: 100% 100%; 
+    }
+
+    .header-text{
+        padding: 0px;
+        text-align: center;
+        background-color: #2e2d79f5;
+        margin: auto;
+    }
+    
+    .hello{
+        font-size: 20px;
+    }
+    .header-text>h1{
+        font-size: 45px;
+    }
+
+    #education{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #projects{
+        margin: auto;
+        text-align: center;
+    }
+
+    .red-tag-1{
+        /* display: none; */
+        width: 300px;
+        /* position: relative; */
+        height: 162px;
+    
+    /* background-color: #2E2D79; */
+        top: 143px;
+        left: -19px;
+    /* border-radius: 15px;
+    z-index: -1; */
+    }
+
+    a>img{
+        /* border: 2px solid #2E2D79; */
+        width: 300px;
+    }
+
+    .edu-img>img{
+        width: 250px;
+    }
+
+    .project-box{
+        flex-wrap: wrap;
+    }
+
+    .hobby-main{
+        flex-direction: column;
+    }
+    #contact{
+        width: 100vw;
+        text-align: center;
+    }
+
+    .contact-left{
+        margin: auto;
+    }
+}
